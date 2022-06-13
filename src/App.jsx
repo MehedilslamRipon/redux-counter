@@ -20,7 +20,7 @@ function App() {
          toast.error('Invalid phone number! 😒');
          return 0;
       } else if (quantity > 20) {
-         toast.warning('Quantity must be less than 50! 😑');
+         toast.warning('Quantity must be less than 20! 😑');
          return 0;
       }
 
