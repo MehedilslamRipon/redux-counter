@@ -19,8 +19,8 @@ function App() {
       if (!phone.match(/(^(\+8801|8801|01|008801))[1|3-9]{1}(\d){8}$/)) {
          toast.error('Invalid phone number! 😒');
          return 0;
-      } else if (quantity > 20) {
-         toast.warning('Quantity must be less than 20! 😑');
+      } else if (quantity > 50) {
+         toast.warning('Quantity must be less than 50! 😑');
          return 0;
       }
 
